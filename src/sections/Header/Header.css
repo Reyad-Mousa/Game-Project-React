@@ -1,0 +1,19 @@
+.profile{
+    background-color: var(--color-pink);
+    color: white;
+    border-radius: 25px;
+
+}
+.profile img {
+    max-width: 35px;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+li{
+    padding:0 10px;
+}
+ .pro {
+    background-color: var(--color-pink);
+    border-radius: 25px;
+
+}

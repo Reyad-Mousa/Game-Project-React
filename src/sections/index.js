@@ -1,0 +1,14 @@
+export { default as Header } from "../sections/Header/Header";
+export { default as Top } from "../sections/Top/Top";
+export { default as MostPopular } from "../sections/MostPopular/MostPopular";
+export { default as Footer } from "../sections/Footer/Footer";
+export { default as GamingLibrary } from "../sections/GamingLibrary/GamingLibrary";
+export { default as LiveStreams } from "../sections/LiveStreams/LiveStreams";
+export { default as TopStream } from "../sections/TopStream/TopStream";
+export { default as MostpopularLiveStream } from "../sections/MostpopularLiveStream/MostpopularLiveStream";
+export { default as FeaturedGames } from "../sections/FeaturedGames/FeaturedGames";
+export { default as TopFeaturedGames } from "../sections/TopFeaturedGames/TopFeaturedGames";
+export { default as HowToStart } from "../sections/HowToStart/HowToStart";
+export { default as MostpopularLiveStreaminBrowse } from "../sections/MostpopularLiveStream_in_Browse/MostpopularLiveStreaminBrowse";
+export { default as DetailsSection } from "./DetailsSection/DetailsSection";
+export { default as ProfileDetails } from "./ProfileDetails/ProfileDetails";

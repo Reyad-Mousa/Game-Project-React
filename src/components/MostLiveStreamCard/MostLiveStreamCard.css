@@ -1,0 +1,47 @@
+.MostLiveStreamCard{
+  flex: 1 25%;
+}
+.MostLiveStreamCard-Wrapper {
+  padding: calc(var(--padding-primary) / 8);
+}
+.MostLiveStreamCard-item-image {
+  width: 100%;
+  border-radius: 23px;
+ margin-bottom: calc(var(--margin-primary) / 2);
+}
+
+.MostLiveStreamCard-mine ul {
+  margin-bottom: 0px;
+  padding-left: 0;
+  padding-right:calc(var(--padding-primary) / 2) ;
+}
+.MostLiveStreamCard-mine ul li {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: flex-start;
+}
+.MostLiveStreamCard-mine h4 {
+  display: inline;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+.MostLiveStreamCard-mine h6 {
+  display: inline;
+  font-size: 16px;
+  color: #ec6090;
+  font-weight: 400;
+}
+.MostLiveStreamCard-mine img {
+  max-width: 46px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.MostLiveStreamCard-mine .content{
+  display: flex;
+  flex-direction: column;
+}
+.MostLiveStreamCard-mine .content span{
+  font-weight: 900;
+}
+  

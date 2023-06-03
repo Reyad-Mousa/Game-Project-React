@@ -1,0 +1,13 @@
+footer p {
+    text-align: center;
+    padding: calc(var(--padding-primary) / 2);
+    color: var(--color-pink);
+    font-weight: 300;
+}
+footer p a {
+    color: var(--color-light);
+    transition: all 0.3s;
+}
+footer p a:hover {
+    color: var(--color-pink);
+}

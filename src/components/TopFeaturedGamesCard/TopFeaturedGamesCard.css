@@ -1,0 +1,58 @@
+.TopFeaturedGamesCard-mine {
+  width: 100%;
+}
+.TopFeaturedGamesCard-mine ul {
+  padding: 0;
+}
+
+.TopFeaturedGamesCard-mine ul li {
+  border-bottom: 1px solid #27292a;
+  margin-bottom: 28px;
+  padding-bottom: 28px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.TopFeaturedGamesCard-mine h4 {
+  font-size: 15px;
+  padding-top: 7px;
+  display: block;
+  color: #ec6090;
+
+}
+.TopFeaturedGamesCard-mine h6 {
+  font-size: 15px;
+  color: #666;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+.TopFeaturedGamesCard-mine img {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 23px;
+  float: left;
+  margin-right: 15px;
+}
+.TopFeaturedGamesCard-mine span {
+  color: #fff;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-23px);
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  color: #ec6090;
+  background-color: #27292a;
+  border-radius: 50%;
+  cursor: pointer;
+}

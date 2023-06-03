@@ -1,0 +1,35 @@
+.top-stream-card {
+  flex: 1 1 100%;
+  flex-wrap: wrap;
+}
+.top-stream-card ul {
+  margin-bottom: 0px;
+}
+.top-stream-card ul li {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #353637;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.top-stream-card h4 {
+  display: inline;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+.top-stream-card h6 {
+  display: inline;
+  font-size: 16px;
+  color: #ec6090;
+  font-weight: 400;
+}
+.top-stream-card img {
+  max-width: 46px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.btn-topstream {
+  float: right;
+}

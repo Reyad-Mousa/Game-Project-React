@@ -1,0 +1,11 @@
+.section-Wrapper {
+    color: var(--color-light);
+    background-color: var(--color-darkest);
+    padding: var(--padding-primary);
+    border-radius: var(--border-radius-primary);
+    margin-top: var(--margin-primary);
+  }
+  @media (max-width: 767px){
+  .section-Wrapper {
+    padding: 30px;
+}}

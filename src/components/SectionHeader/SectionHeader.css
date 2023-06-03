@@ -1,0 +1,10 @@
+.section-header h4 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  @media (max-width: 767px){
+    .section-header h4 {
+      font-size: 20px;
+    }}

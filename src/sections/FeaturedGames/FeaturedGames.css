@@ -1,0 +1,35 @@
+.container-FeaturedGames {
+    width: 100%;
+  }
+  .FeaturedGames-Cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .header-FeaturedGames {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-FeaturedGames h4,
+  .btn-FeaturedGames {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  @media (max-width: 767px){
+  .header-FeaturedGames h4,
+  .btn-FeaturedGames {
+     font-size: 20px;
+  }
+  
+  }
+  .FeaturedGames-item-image{
+    width: auto;
+  }
+  @media (min-width: 992px) {
+    .container-FeaturedGames {
+      flex: 0 0 auto;
+      width: 66%;
+      padding: 20px;
+    }
+  }
+  

@@ -1,0 +1,11 @@
+.main-container{
+    background-color: var(--color-dark);
+    padding: var(--padding-primary);
+    border-radius: var(--border-radius-primary);
+    overflow: hidden;
+
+}
+@media (max-width: 767px){
+.main-container{
+    padding: 0px 30px;
+}}

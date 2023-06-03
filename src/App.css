@@ -1,0 +1,21 @@
+:root {
+  --color-dark: #27292a;
+  --color-darkest: #1f2122;
+  --color-light: #fff;
+  --color-pink: #ec6090;
+  --color-icon: yellow;
+  --distance-primary:50px;
+  --padding-primary:var(--distance-primary);
+  --margin-primary:var(--distance-primary);
+  --border-radius-primary:calc(var(--distance-primary) /2);
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: var(--color-darkest);
+}
+ul{
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

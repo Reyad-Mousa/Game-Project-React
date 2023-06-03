@@ -1,0 +1,23 @@
+.Live-stream-item {
+    flex: 1 25%;
+  }
+  .card-Wrapper {
+    border-radius: calc(var(--border-radius-primary) / 2);
+    background-color: var(--color-dark);
+    padding: calc(var(--padding-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+  }
+  .Live-stream-item-image {
+    width: 100%;
+    border-radius: calc(var(--border-radius-primary) / 2);
+    margin-bottom: calc(var(--margin-primary) / 2);
+  }
+  .Live-stream-item-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Live-stream-item-title {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  

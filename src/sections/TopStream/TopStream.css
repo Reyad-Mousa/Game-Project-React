@@ -1,0 +1,20 @@
+.Top-Stream-Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .container-TopStream{
+    width: 100%;
+  }
+
+  @media (min-width: 992px) {
+    .container-TopStream{
+      flex: 0 0 auto;
+      width: 33%;
+      height: 592px;
+      overflow: auto;
+      padding: 20px;
+    }
+  }
+  

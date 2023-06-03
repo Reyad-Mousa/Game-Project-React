@@ -1,0 +1,34 @@
+.container-liveStream {
+  width: 100%;
+}
+.Live-Stream-Cards {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.header-liveStram {
+  display: flex;
+  justify-content: space-between;
+}
+.header-liveStram h4,
+.btn-liveStream {
+  font-size: 36px;
+  font-weight: 700;
+}
+@media (max-width: 767px){
+.header-liveStram h4,
+.btn-liveStream {
+   font-size: 20px;
+}
+
+}
+.Live-stream-item-image{
+  width: auto;
+}
+@media (min-width: 992px) {
+  .container-liveStream {
+    flex: 0 0 auto;
+    width: 66%;
+    padding: 20px;
+  }
+}
